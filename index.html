@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Sister 🤍</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- PARTICLES -->
+<div id="particles"></div>
+
+<!-- =========================
+     PAGE 1 — BIRTHDAY LOCK
+========================= -->
+
+<section id="gate" class="page active">
+
+    <div class="decor decor1">✦</div>
+    <div class="decor decor2">♡</div>
+    <div class="decor decor3">✧</div>
+    <div class="decor decor4">❀</div>
+
+    <div class="gate-card">
+
+        <div class="crown">♕</div>
+
+        <p class="small-title">
+            A little surprise made especially for you
+        </p>
+
+        <h1>
+            For My
+            <span>Sister</span>
+        </h1>
+
+        <p class="description">
+            Something beautiful is waiting for you.
+            But first, prove that you know your special day. 🤍
+        </p>
+
+        <div class="date-inputs">
+
+            <input
+                id="day"
+                type="text"
+                maxlength="2"
+                placeholder="DD"
+            >
+
+            <span>.</span>
+
+            <input
+                id="month"
+                type="text"
+                maxlength="2"
+                placeholder="MM"
+            >
+
+            <span>.</span>
+
+            <input
+                id="year"
+                type="text"
+                maxlength="4"
+                placeholder="YYYY"
+            >
+
+        </div>
+
+        <button id="unlockButton" class="main-button">
+            Unlock My Surprise ✨
+        </button>
+
+        <p id="errorMessage"></p>
+
+        <small class="hint">
+            Your birthday is the key ♡
+        </small>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PAGE 2 — HAPPY BIRTHDAY
+========================= -->
+
+<section id="welcome" class="page birthday-page">
+
+    <div class="stars"></div>
+
+    <div class="birthday-content">
+
+        <div class="cake">
+            🎂
+        </div>
+
+        <p class="subtitle">
+            TODAY IS YOUR SPECIAL DAY
+        </p>
+
+        <h2>
+            Happy Birthday,
+            <span>My Sister! FARAHRUZ❤</span>
+        </h2>
+
+        <p class="birthday-text">
+            28 September 2007 — the day our family received
+            one of its most beautiful blessings.
+        </p>
+
+        <div class="birthday-badge">
+            🎂 Happy Birthday 🎂
+        </div>
+
+        <button class="main-button" data-next="letter">
+            Open Your Birthday Letter 💌
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PAGE 3 — LETTER
+========================= -->
+
+<section id="letter" class="page letter-page">
+
+    <div class="letter-paper">
+
+        <div class="paper-flower">
+            ✿
+        </div>
+
+        <p class="small-title">
+            A letter from your sister
+        </p>
+
+        <h2>
+            To My Dearest Sister
+        </h2>
+
+        <div class="letter-text">
+
+            <p>
+                Happy Birthday to one of the most precious people
+                Allah has given me.
+            </p>
+
+            <p>
+                You are not only my sister. You are the person who
+                stayed beside me through difficult days and happy days.
+                Sometimes you are my sister, sometimes my best friend,
+                and sometimes even like a second mother.
+            </p>
+
+            <p>
+                People ask us what the secret of our closeness is.
+                Maybe there is no secret. It is trust, love,
+                and all the moments we have shared together.
+            </p>
+            <p>
+                I may joke with you and compare you to a jellyfish 😅,
+                but behind every joke there is something very serious:
+                <strong>I love you more than I can explain.</strong>
+            </p>
+
+            <p>
+                I do not ask life for much for you.
+                I only want you to be truly happy.
+            </p>
+
+            <p class="signature">
+                With all my love,<br>
+                <strong>Your Sister 🤍</strong>
+            </p>
+
+        </div>
+
+        <button class="outline-button" data-next="dua">
+            Read Your Special Dua 🤲🏻
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PAGE 4 — ISLAMIC DUA
+========================= -->
+
+<section id="dua" class="page dua-page">
+
+    <div class="moon">
+        ☾
+    </div>
+
+    <p class="subtitle">
+        A SPECIAL BIRTHDAY DU'A
+    </p>
+
+    <h2>
+        May Allah Bless
+        <span>Your Life</span>
+    </h2>
+
+    <div class="dua-card">
+
+        <div class="arabic">
+            بَارَكَ اللهُ فِي عُمْرِكِ
+        </div>
+
+        <p class="translation">
+            May Allah bless your life and your years.
+        </p>
+
+        <div class="line">
+            ✦
+        </div>
+
+        <p>
+            May Allah protect you wherever you go,
+            guide your heart, strengthen your faith,
+            and fill your life with peace and barakah.
+        </p>
+
+        <p>
+            May every sincere dua in your heart find
+            its beautiful answer at the right time.
+        </p>
+
+        <p>
+            May Allah give you happiness that never leaves,
+            people who truly love you, and a future
+            more beautiful than you imagine.
+        </p>
+
+        <strong class="ameen">
+            Ameen Ya Rabb 🤲🏻
+        </strong>
+
+    </div>
+
+    <button class="main-button" data-next="memories">
+        Open Our Memories 📸
+    </button>
+
+</section>
+
+
+<!-- =========================
+     PAGE 5 — MEMORIES
+========================= -->
+
+<section id="memories" class="page memories-page">
+
+    <div class="content">
+
+        <p class="small-title">
+            OUR LITTLE STORY
+        </p>
+
+        <h2>
+            Our Beautiful
+            <span>Memories</span>
+        </h2>
+
+        <p class="section-description">
+            Some memories may become old,
+            but the people we love never become ordinary.
+        </p>
+
+
+        <div class="memory-grid">
+
+            <article class="memory-card">
+
+                <div class="number">
+                    01
+                </div>
+
+                <div class="memory-icon">
+                    🌷
+                </div>
+
+                <h3>
+                    Little Moments
+                </h3>
+
+                <p>
+                    The smallest moments with you
+                    became some of my favorite memories.
+                </p>
+
+            </article>
+
+
+            <article class="memory-card">
+
+                <div class="number">
+                    02
+                </div>
+
+                <div class="memory-icon">
+                    😂
+                </div>
+
+                <h3>
+                    Our Laughter
+                </h3>
+
+                <p>
+                    Some jokes make sense only to us,
+                    and maybe that is what makes them special.
+                </p>
+
+            </article>
+
+
+            <article class="memory-card">
+
+                <div class="number">
+                    03
+                </div>
+
+                <div class="memory-icon">
+                    🤍
+                </div>
+
+                <h3>
+                    Always Family
+                </h3>
+
+                <p>
+                    No matter how much life changes,
+                    you will always have a place in my heart.
+                </p>
+
+            </article>
+
+        </div>
+
+
+        <button class="main-button" data-next="gallery">
+            Open Our Photo Album 🖼️
+        </button>
+
+    </div>
+
+</section>
+<!-- =========================
+     PAGE 6 — PHOTO GALLERY
+========================= -->
+
+<section id="gallery" class="page gallery-page">
+
+    <div class="content">
+
+        <p class="subtitle">
+            OUR PHOTO ALBUM
+        </p>
+
+        <h2>
+            Moments I Want
+            <span>To Keep Forever</span>
+        </h2>
+
+        <p class="gallery-description">
+            Every picture holds a little piece of our story.
+        </p>
+
+
+        <div class="gallery">
+
+            <figure>
+                <img src="images/photo1.png" alt="Memory 1">
+                <figcaption>Our Memory 🤍</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/photo2.png" alt="Memory 2">
+                <figcaption>A Beautiful Day ✨</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/photo3.png" alt="Memory 3">
+                <figcaption>Always Together 🌷</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/photo4.png" alt="Memory 4">
+                <figcaption>Our Little World 🤍</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/photo5.png" alt="Memory 5">
+                <figcaption>Never Forget This ✨</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/photo6.png" alt="Memory 6">
+                <figcaption>Forever Family 🫶🏻</figcaption>
+            </figure>
+
+        </div>
+
+
+        <button class="main-button" data-next="final">
+            One Last Surprise 🎁
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PAGE 7 — FINAL
+========================= -->
+
+<section id="final" class="page final-page">
+
+    <div class="final-content">
+
+        <div class="gift">
+            🎁
+        </div>
+
+        <p class="subtitle">
+            ONE LAST THING
+        </p>
+
+        <h2>
+            You Are Loved
+            <span>More Than You Know.</span>
+        </h2>
+
+        <p class="final-text">
+            No matter where life takes us,
+            no matter how many years pass,
+            you will always be my sister,
+            my family, and one of the most precious
+            people in my life.
+        </p>
+
+        <div class="final-birthday">
+            🎂
+            <strong>Happy Birthday!</strong>
+            🤍
+        </div>
+
+        <p class="final-dua">
+            May Allah protect you,
+            bless your life,
+            and make your dreams come true.
+            <br>
+            Ameen. 🤲🏻
+        </p>
+
+        <button id="replayButton" class="outline-light-button">
+            Replay Our Story ↻
+        </button>
+
+    </div>
+
+</section>
+
+
+<footer>
+    Made with HTML · CSS · JavaScript · and lots of sisterly love ♡
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
